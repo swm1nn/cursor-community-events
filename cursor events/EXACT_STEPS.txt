@@ -1,0 +1,92 @@
+═══════════════════════════════════════════════════════════════════
+  CURSOR COMMUNITY EVENTS - EXACT STEPS TO DEPLOY
+═══════════════════════════════════════════════════════════════════
+
+Your project is 100% ready! Just follow these 3 steps:
+
+───────────────────────────────────────────────────────────────────
+STEP 1: CREATE GITHUB REPOSITORY (2 minutes)
+───────────────────────────────────────────────────────────────────
+
+1. Open this URL in your browser:
+   → https://github.com/new
+
+2. Fill in:
+   Repository name: cursor-community-events
+   Description: Interactive map of Cursor Community events
+   Visibility: Public (or Private - your choice)
+
+3. IMPORTANT - DO NOT CHECK:
+   ❌ Add a README file
+   ❌ Add .gitignore  
+   ❌ Choose a license
+
+4. Click "Create repository"
+
+───────────────────────────────────────────────────────────────────
+STEP 2: PUSH CODE TO GITHUB (1 minute)
+───────────────────────────────────────────────────────────────────
+
+Open Terminal and run these commands:
+
+cd "/Users/nurdikbazylbekov/cursor events"
+./COMPLETE_SETUP.sh
+
+OR manually:
+
+cd "/Users/nurdikbazylbekov/cursor events"
+git remote add origin https://github.com/YOUR_USERNAME/cursor-community-events.git
+git branch -M main
+git push -u origin main
+
+(Replace YOUR_USERNAME with your actual GitHub username)
+
+If asked for password:
+→ Use a Personal Access Token (not your password)
+→ Get one: https://github.com/settings/tokens
+→ Click "Generate new token (classic)"
+→ Select scope: repo
+→ Copy and paste as password
+
+───────────────────────────────────────────────────────────────────
+STEP 3: DEPLOY TO VERCEL (2 minutes)
+───────────────────────────────────────────────────────────────────
+
+1. Open this URL in your browser:
+   → https://vercel.com/new
+
+2. Sign in (you can use your GitHub account!)
+
+3. Click "Import Git Repository"
+
+4. Find and click on: cursor-community-events
+
+5. Click "Import"
+
+6. Leave settings as default (Vercel auto-detects everything)
+
+7. Click "Deploy"
+
+───────────────────────────────────────────────────────────────────
+✅ DONE! YOUR SITE IS LIVE!
+───────────────────────────────────────────────────────────────────
+
+Your site will be at: https://cursor-community-events.vercel.app
+
+Every time you push to GitHub, Vercel automatically redeploys!
+
+───────────────────────────────────────────────────────────────────
+QUICK UPDATE COMMANDS
+───────────────────────────────────────────────────────────────────
+
+To update your site later:
+
+cd "/Users/nurdikbazylbekov/cursor events"
+git add .
+git commit -m "Update events"
+git push
+
+Vercel will automatically redeploy!
+
+═══════════════════════════════════════════════════════════════════
+

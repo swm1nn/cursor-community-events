@@ -1,0 +1,17 @@
+{
+  "name": "cursor-community-events",
+  "version": "1.0.0",
+  "description": "Interactive map of Cursor Community events",
+  "scripts": {
+    "dev": "python3 -m http.server 8000"
+  },
+  "keywords": [
+    "cursor",
+    "events",
+    "map",
+    "community"
+  ],
+  "author": "",
+  "license": "MIT"
+}
+
